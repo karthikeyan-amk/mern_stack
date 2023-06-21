@@ -1,0 +1,68 @@
+-- create a table
+CREATE TABLE staff (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  gender TEXT NOT NULL,
+  subject TEXT NOT NULL,
+  age INTEGER NOT NULL
+);
+-- insert some values
+INSERT INTO staff (id, name, gender, subject, age) VALUES
+  (1, 'John Smith', 'Male', 'Mathematics', 35),
+  (2, 'Jane Doe', 'Female', 'Science', 42),
+  (3, 'Michael Johnson', 'Male', 'Art', 28),
+  (4, 'Emily Davis', 'Female', 'History', 31),
+  (5, 'Robert Anderson', 'Male', 'Physics', 39),
+  (6, 'Sarah Wilson', 'Female', 'Chemistry', 36),
+  (7, 'David Thompson', 'Male', 'Geography', 33),
+  (8, 'Jessica Brown', 'Female', 'Art', 29),
+  (9, 'Andrew Taylor', 'Male', 'Physical Education', 41),
+  (10, 'Olivia Clark', 'Female', 'Mathematics', 27);
+-- Sort according to the age
+SELECT * FROM staff order by age asc;
+-- Count the staff in each subject
+SELECT count(subject),subject from staff group by subject;
+
+
+
+-- Aggregate Functions
+-- Count the number of records:
+SELECT COUNT(*) FROM staff;
+
+
+-- Calculate the average age of staff members:
+SELECT AVG(age) FROM staff;
+
+-- Find the minimum and maximum age among the staff:
+SELECT MIN(age), MAX(age) FROM staff;
+
+-- Calculate the total age of all staff members:
+SELECT SUM(age) FROM staff;
+
+
+
+-- Output
+-- 10|Olivia Clark|Female|Mathematics|27
+-- 3|Michael Johnson|Male|Art|28
+-- 8|Jessica Brown|Female|Art|29
+-- 4|Emily Davis|Female|History|31
+-- 7|David Thompson|Male|Geography|33
+-- 1|John Smith|Male|Mathematics|35
+-- 6|Sarah Wilson|Female|Chemistry|36
+-- 5|Robert Anderson|Male|Physics|39
+-- 9|Andrew Taylor|Male|Physical Education|41
+-- 2|Jane Doe|Female|Science|42
+-- 2|Art
+-- 1|Chemistry
+-- 1|Geography
+-- 1|History
+-- 2|Mathematics
+-- 1|Physical Education
+-- 1|Physics
+-- 1|Science
+
+
+-- 10
+-- 34.1
+-- 27|42
+-- 341
