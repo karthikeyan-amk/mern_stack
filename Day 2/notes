@@ -1,0 +1,17 @@
+Joins:
+Inner
+Left outer
+Right outer
+Full outer join
+
+Primary key
+Foreign key 
+
+Normalization 
+
+1:atomic
+2:Builds on 1NF and eliminates partial dependencies. It requires that each non-key column depends on the entire primary key, rather than only a part of it.
+
+Task:
+How to copy another db 
+Filter sort

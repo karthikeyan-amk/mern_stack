@@ -1,0 +1,32 @@
+SQL:
+
+Rows-tuple
+colunum -fields
+
+
+DDL(data definition language)
+Create
+Alter
+Drop 
+Truncate
+DMl(Data manipulation language)
+Insert
+Update
+Delete
+TCL(transaction control language)
+Commit
+Roll back
+Save point
+DCL(Data control language)
+Grant
+Revoke
+DQL(Data query language)
+Select
+
+Count sum average
+Joins 
+
+
+
+
+
