@@ -1,0 +1,13 @@
+{
+    "Name" : "Karthi",
+    "Department" : "CSE",
+    "Age" : "19",
+    "Address":{
+        "Street" : "Udumalai main road",
+        "city" : "Pollachi",
+        "World" :{
+            "State": "TamilNadu",
+            "Country": "India"
+        }
+    }
+}
