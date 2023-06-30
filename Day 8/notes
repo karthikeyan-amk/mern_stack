@@ -1,0 +1,31 @@
+Topics
+
+API
+Express
+
+How to create an API
+How to connect it by Express
+
+REQUEST---METHODS
+------------------------------------          
+          GET
+          PUT
+          POST
+          TRASH
+          DELETE
+
+...............................................................................................................................................
+
+POST – add data or initiate the specified action
+GET – get data
+PUT or PATCH – update data
+DELETE – delete data
+
+PUT vs PATCH
+............
+
+
+PUT is to be used for operations that update (replace) an entire resource.
+PATCH is to be used for operations that update only some attributes of a resource.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,8 @@
+Request methods
+
+get
+put
+post
+trash
+delete
+
